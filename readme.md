@@ -1,11 +1,38 @@
+
 # AMR Resources
 
 A  list of Abstract meaning representation (AMR) resources: research papers, code, data, applications, etc. The list is not limited to Abstract meaning representation exclusively. It also includes work highly related to AMR, such as translation and information extraction.
 
 ## Table of contents
+<!--ts-->
+* [AMR Resources](#amr-resources)
+   * [Table of contents](#table-of-contents)
+   * [Introduction to AMR](#introduction-to-amr)
+   * [Papers sorted in chronological order](#papers-sorted-in-chronological-order)
+      * [2013](#2013)
+      * [2014](#2014)
+      * [2015](#2015)
+      * [2016](#2016)
+      * [2017](#2017)
+      * [2018](#2018)
+      * [2019](#2019)
+      * [2020](#2020)
+      * [2021](#2021)
+   * [Papers grouped by category](#papers-grouped-by-category)
+      * [Surveys](#surveys)
+      * [Evaluation](#evaluation)
+      * [AMR parsing approaches](#amr-parsing-approaches)
+         * [Transition based](#transition-based)
+         * [Seq2graph](#seq2graph)
+      * [AMR for downstream applications](#amr-for-downstream-applications)
+         * [Machine translation](#machine-translation)
+         * [QA](#qa)
+         * [NLG](#nlg)
+   * [Data](#data)
 
-[TOC]
+<!-- Added by: fansiqi, at: 2021年 9月14日 星期二 18时16分59秒 CST -->
 
+<!--te-->
 
 
 ## Introduction to AMR
