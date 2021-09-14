@@ -4,7 +4,9 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
 
 ## Table of contents
 
-[toc]
+[TOC]
+
+
 
 ## Introduction to AMR
 
