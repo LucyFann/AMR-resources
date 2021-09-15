@@ -56,14 +56,21 @@ AMR aims to make the following format:
 ### 2013
 
 * *["Abstract Meaning Representation for Sembanking"](https://aclanthology.org/W13-2322.pdf)* - ACL 2013
-
   Laura Banarescu, Claire Bonial, Shu Cai
+* [*"Renewing and revising SemLink",*](https://aclanthology.org/W13-5503.pdf) -ACL 2013
+  Claire Bonial, Kevin Stowe & Martha Palmer
+* [*"Unsupervised Induction of Cross-lingual Semantic Relations",*](https://aclanthology.org/D13-1064.pdf) -ACL 2013
+  M Lewis, M Steedman
 
+* [*"Textual inference and meaning representation in human robot interaction",*](https://aclanthology.org/W13-3820.pdf) -ACL 2013
+  Emanuele Bastianelli Giuseppe Castellucci Danilo Croce Roberto Basili
 ### 2014
 
-* 
-
-
+* [*" A discriminative graph-based parser for the abstract meaning representation",*](https://aclanthology.org/P14-1134.pdf) -ACL 2014
+  Jeffrey Flanigan Sam Thomson Jaime Carbonell Chris Dyer Noah A. Smith
+  
+* [*"Large-scale Semantic Parsing without Question-Answer Pairs",*](https://aclanthology.org/Q14-1030.pdf) ACL 2014
+  Siva Reddy, Mirella Lapata, Mark Steedman
 ### 2015
 
 * 
@@ -103,7 +110,8 @@ AMR aims to make the following format:
 
 ### Surveys
 
-
+* [*"Learning Executable Semantic Parsers for Natural Language Understanding",*](https://cs.stanford.edu/~pliang/papers/executable-cacm2016.pdf)-2016
+  Percy Liang
 
 ### Evaluation
 
@@ -147,13 +155,69 @@ smatch metric is developed for comparing one AMR against another. It computes an
 
 ### AMR for downstream applications
 
-AMR graph output has been shown to be a useful input for many downstream tasks. In this section, several downstream tasks that benefited from AMR output are listed. 
-
+AMR graph output has been shown to be a useful input for many downstream tasks. In this section, several downstream tasks that benefited from AMR output are listed. AMR体现在知识库的构建和使用上，好的知识结构更有利于更新和应用。
 #### Machine translation
+* [*"Neural Semantic Parsing by Character-based Translation: Experiments with Abstract Meaning Representations,"*](https://arxiv.org/pdf/1705.09980.pdf) -CLIN 2017
+  Rik van Noord, Johan Bos
+* [*"Semantic Neural Machine Translation Using AMR",*](https://arxiv.org/pdf/1902.07282.pdf) -ACL 2019
+  Linfeng Song, Daniel Gildea, Yue Zhang, Zhiguo Wang and Jinsong Su
+* [*"Self-Attention with Structural Position Representations",*](https://arxiv.org/pdf/1909.00383.pdf) - EMNLP 2019
+  Xing Wang, Zhaopeng Tu, Longyue Wang, Shuming Shi
 
-#### QA
+#### Question answering
+* [*"Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",*](https://arxiv.org/pdf/1809.08887.pdf) -	EMNLP 2018, Long Paper
+  Tao Yu Rui Zhang Kai Yang Michihiro Yasunaga
+* [*"TypeSQL: Knowledge-based Type-Aware Neural Text-to-SQL Generation",*](https://arxiv.org/pdf/1804.09769.pdf)-	NAACL 2018
+  Tao Yu, Zifan Li, Zilin Zhang, Rui Zhang, Dragomir Radev
 
-#### NLG
+
+#### Natural language generation
+* [*"Toward Abstractive Summarization Using Semantic Representations",*](https://arxiv.org/pdf/1805.10399.pdf) ACL 2018
+  Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith
+* [*"A Graph-to-Sequence Model for AMR-to-Text Generation",*](https://arxiv.org/pdf/1805.02473.pdf) ACL 2018
+  Linfeng Song, Yue Zhang, Zhiguo Wang, Daniel Gildea
+  
+* [*"Deep Graph Convolutional Encoders for tructured Data to Text Generation",*](https://arxiv.org/pdf/1810.09995.pdf)
+  Diego Marcheggiani,Laura Perez-Beltrachini
+* [*"Structural Neural Encoders for AMR-to-text Generation",*](Marco Damonte, Shay B. Cohen) -NAACL 2019[code](https://github.com/mdtux89/OpenNMT-py-AMR-to-text)
+  Marco Damonte, Shay B. Cohen
+* [*"Modeling Graph Structure in Transformer for Better AMR-to-Text Generation",*](https://arxiv.org/pdf/1909.00136.pdf) -EMNLP 2019
+  Jie Zhu, Junhui Li, Muhua Zhu, Longhua Qian, Min Zhang, Guodong Zhou
+#### Information extraction
+* [*"Unsupervised Induction of Cross-lingual Semantic Relations",*](https://aclanthology.org/D13-1064.pdf) -ACL 2013 [code](https://github.com/Amazing-J/structural-transformer)
+  M Lewis, M Steedman
+
+* [*"Unified Visual-Semantic Embeddings: Bridging Vision and Language With Structured Meaning Representations",*](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_Unified_Visual-Semantic_Embeddings_Bridging_Vision_and_Language_With_Structured_Meaning_CVPR_2019_paper.pdf) -CVPR 2019
+  H Wu, J Mao, Y Zhang, Y Jiang
+#### Human–robot interaction
+* [*"Textual inference and meaning representation in human robot interaction",*](https://aclanthology.org/W13-3820.pdf) -ACL
+  Emanuele Bastianelli Giuseppe Castellucci Danilo Croce Roberto Basili
+#### Image Retrieval
+* [*"Generating semantically precise scene graphs from textual descriptions for improved image retrieval",*](https://aclanthology.org/W15-2812.pdf) -ACL 2015
+  Sebastian Schuster, Ranjay Krishna, Angel Chang, Li Fei-Fei, and Christopher D. Manning
+
+#### Semantic Role Labeling （SRL）
+* [*"Question-Answer Driven Semantic Role Labeling:Using Natural Language to Annotate Natural Language",*](https://aclanthology.org/D15-1076.pdf) -EMNLP 2015
+  Luheng He Mike Lewis Luke Zettlemoyer
+#### Cross-lingual
+* [*"Cross-lingual Name Tagging and Linking for 282 Languages",*](https://aclanthology.org/P17-1178.pdf) -ACL 2017
+  Xiaoman Pan Boliang Zhang Jonathan May
+* [*"The Parallel Meaning Bank: Towards a Multilingual Corpus of Translations Annotated with Compositional Meaning Representations",*](https://arxiv.org/pdf/1702.03964.pdf) -EACL 2017
+  Lasha Abzianidze Johannes Bjerva Kilian Evang Hessel Haagsma
+#### Math problems
+* [*"Automatically Solving Number Word Problems by Semantic Parsing and Reasoning",*](https://aclanthology.org/D15-1135.pdf) -ACL 2015
+  Shuming Shi Yuehui Wangn Chin-Yew Lin Xiaojiang Liu1 and Yong Rui
+#### Entity Linking
+* [*"Unsupervised Entity Linking with Abstract Meaning Representation",*](https://aclanthology.org/N15-1119.pdf) -ACL 2015 [code](https://github.com/panx27/amr-reader)
+  Xiaoman Pan Taylor Cassidy Ulf Hermjakob Heng Ji Kevin Knight
+#### Data Augmentation
+* [*"Richer event description: Integrating event coreference with temporal, causal and bridging annotation",*](https://aclanthology.org/W16-5706.pdf) -ACL 2016
+  Tim O’Gorman and Kristin Wright-Bettner and Martha Palmer
+#### Code generation
+* [*"A Syntactic Neural Model for General-Purpose Code Generation",*](https://arxiv.org/pdf/1704.01696.pdf) -ACL 2017
+  Pengcheng Yin, Graham Neubig
+* [*"TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic Parsing and Code Generation",*](https://arxiv.org/pdf/1810.02720.pdf) -EMNLP 2018
+  Pengcheng Yin, Graham Neubig
 
 
 ## Data
