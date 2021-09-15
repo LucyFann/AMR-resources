@@ -11,13 +11,6 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
    * [Papers sorted in chronological order](#papers-sorted-in-chronological-order)
       * [2013](#2013)
       * [2014](#2014)
-      * [2015](#2015)
-      * [2016](#2016)
-      * [2017](#2017)
-      * [2018](#2018)
-      * [2019](#2019)
-      * [2020](#2020)
-      * [2021](#2021)
    * [Papers grouped by category](#papers-grouped-by-category)
       * [Surveys](#surveys)
       * [Evaluation](#evaluation)
@@ -39,7 +32,7 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Code generation](#code-generation)
    * [Data](#data)
 
-<!-- Added by: fansiqi, at: 2021年 9月15日 星期三 22时33分41秒 CST -->
+<!-- Added by: fansiqi, at: 2021年 9月15日 星期三 23时55分18秒 CST -->
 
 <!--te-->
 
@@ -80,41 +73,6 @@ AMR aims to make the following format:
   
 * [*"Large-scale Semantic Parsing without Question-Answer Pairs",*](https://aclanthology.org/Q14-1030.pdf) ACL 2014
   Siva Reddy, Mirella Lapata, Mark Steedman
-### 2015
-
-* 
-
-
-### 2016
-
-* 
-
-### 2017
-
-* 
-
-
-### 2018
-
-* 
-
-
-### 2019
-
-* 
-
-
-### 2020
-
-* 
-
-
-### 2021
-
-* 
-
-
-
 ## Papers grouped by category
 
 ### Surveys
@@ -164,7 +122,10 @@ smatch metric is developed for comparing one AMR against another. It computes an
 
 ### AMR for downstream applications
 
-AMR graph output has been shown to be a useful input for many downstream tasks. In this section, several downstream tasks that benefited from AMR output are listed. AMR体现在知识库的构建和使用上，好的知识结构更有利于更新和应用。
+AMR graph output has been shown to be a useful input for many downstream tasks. In this section, several downstream tasks that benefited from AMR output are listed.
+
+AMR体现在知识库的构建和使用上，好的知识结构更有利于更新和应用。
+
 #### Machine translation
 * [*"Neural Semantic Parsing by Character-based Translation: Experiments with Abstract Meaning Representations,"*](https://arxiv.org/pdf/1705.09980.pdf) -CLIN 2017
   Rik van Noord, Johan Bos
@@ -183,15 +144,22 @@ AMR graph output has been shown to be a useful input for many downstream tasks. 
 #### Natural language generation
 * [*"Toward Abstractive Summarization Using Semantic Representations",*](https://arxiv.org/pdf/1805.10399.pdf) ACL 2018
   Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith
+  
 * [*"A Graph-to-Sequence Model for AMR-to-Text Generation",*](https://arxiv.org/pdf/1805.02473.pdf) ACL 2018
   Linfeng Song, Yue Zhang, Zhiguo Wang, Daniel Gildea
   
-* [*"Deep Graph Convolutional Encoders for tructured Data to Text Generation",*](https://arxiv.org/pdf/1810.09995.pdf)
+* [*"Deep Graph Convolutional Encoders for tructured Data to Text Generation",*](https://arxiv.org/pdf/1810.09995.pdf) [code](https://github.com/diegma/graph-2-text)
   Diego Marcheggiani,Laura Perez-Beltrachini
-* [*"Structural Neural Encoders for AMR-to-text Generation",*](Marco Damonte, Shay B. Cohen) -NAACL 2019[code](https://github.com/mdtux89/OpenNMT-py-AMR-to-text)
+  
+* [*"Structural Neural Encoders for AMR-to-text Generation",*](Marco Damonte, Shay B. Cohen) -NAACL 2019 [code](https://github.com/mdtux89/OpenNMT-py-AMR-to-text)
   Marco Damonte, Shay B. Cohen
+  
 * [*"Modeling Graph Structure in Transformer for Better AMR-to-Text Generation",*](https://arxiv.org/pdf/1909.00136.pdf) -EMNLP 2019
   Jie Zhu, Junhui Li, Muhua Zhu, Longhua Qian, Min Zhang, Guodong Zhou
+  
+* [*"Generation from Abstract Meaning Representation using Tree Transducers",*](https://www.cs.cmu.edu/~jgc/publication/flanigantree.pdf) -NAACL 2016  [code](https://github.com/jflanigan/jamr)
+
+  Jeffrey Flanigan,Chris Dyer,Noah A. Smith,Jaime Carbonell
 #### Information extraction
 * [*"Unsupervised Induction of Cross-lingual Semantic Relations",*](https://aclanthology.org/D13-1064.pdf) -ACL 2013 [code](https://github.com/Amazing-J/structural-transformer)
   M Lewis, M Steedman
