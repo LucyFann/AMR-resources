@@ -26,11 +26,20 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Seq2graph](#seq2graph)
       * [AMR for downstream applications](#amr-for-downstream-applications)
          * [Machine translation](#machine-translation)
-         * [QA](#qa)
-         * [NLG](#nlg)
+         * [Question answering](#question-answering)
+         * [Natural language generation](#natural-language-generation)
+         * [Information extraction](#information-extraction)
+         * [Human–robot interaction](#humanrobot-interaction)
+         * [Image Retrieval](#image-retrieval)
+         * [Semantic Role Labeling （SRL）](#semantic-role-labeling-srl)
+         * [Cross-lingual](#cross-lingual)
+         * [Math problems](#math-problems)
+         * [Entity Linking](#entity-linking)
+         * [Data Augmentation](#data-augmentation)
+         * [Code generation](#code-generation)
    * [Data](#data)
 
-<!-- Added by: fansiqi, at: 2021年 9月14日 星期二 18时16分59秒 CST -->
+<!-- Added by: fansiqi, at: 2021年 9月15日 星期三 22时33分41秒 CST -->
 
 <!--te-->
 
