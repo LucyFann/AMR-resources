@@ -23,7 +23,7 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Natural language generation](#natural-language-generation)
          * [Information extraction](#information-extraction)
          * [Human–robot interaction](#humanrobot-interaction)
-         * [Image Retrieval](#image-retrieval)
+         * [Multimodal](#multimodal)
          * [Semantic Role Labeling （SRL）](#semantic-role-labeling-srl)
          * [Cross-lingual](#cross-lingual)
          * [Math problems](#math-problems)
@@ -32,7 +32,7 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Code generation](#code-generation)
    * [Data](#data)
 
-<!-- Added by: fansiqi, at: 2021年 9月15日 星期三 23时55分18秒 CST -->
+<!-- Added by: fansiqi, at: 2021年 9月16日 星期四 10时28分48秒 CST -->
 
 <!--te-->
 
