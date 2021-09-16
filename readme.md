@@ -137,8 +137,17 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 #### Question answering
 * [*"Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",*](https://arxiv.org/pdf/1809.08887.pdf) -	EMNLP 2018, Long Paper
   Tao Yu Rui Zhang Kai Yang Michihiro Yasunaga
+  
 * [*"TypeSQL: Knowledge-based Type-Aware Neural Text-to-SQL Generation",*](https://arxiv.org/pdf/1804.09769.pdf)-	NAACL 2018
   Tao Yu, Zifan Li, Zilin Zhang, Rui Zhang, Dragomir Radev
+  
+* [*"Leveraging Abstract Meaning Representation for Knowledge Base Question Answering",*](https://aclanthology.org/2021.findings-acl.339.pdf) -ACL2021
+  
+  Pavan Kapanipathi, Ibrahim Abdelaziz, Srinivas Ravishankar
+  
+* [*"A Semantic Parsing and Reasoning-Based Approach to Knowledge Base Question Answering",*](https://ojs.aaai.org/index.php/AAAI/article/view/17988) -AAAI 2021
+
+  Ibrahim Abdelaziz
 
 
 #### Natural language generation
@@ -160,6 +169,23 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 * [*"Generation from Abstract Meaning Representation using Tree Transducers",*](https://www.cs.cmu.edu/~jgc/publication/flanigantree.pdf) -NAACL 2016  [code](https://github.com/jflanigan/jamr)
 
   Jeffrey Flanigan,Chris Dyer,Noah A. Smith,Jaime Carbonell
+  
+* [*"Enhancing AMR-to-Text Generation with Dual Graph Representations",*](https://arxiv.org/pdf/1909.00352.pdf) -EMNLP 2019 [code](https://github.com/UKPLab/emnlp2019-dualgraph)
+
+  Leonardo F. R. Ribeiro, Claire Gardent, Iryna Gurevych
+
+* [*"GPT-too: A language-model-first approach for AMR-to-text generation",*]() -ACL 2020
+
+  Manuel Mager, Ramon Fernandez Astudillo, Tahira Naseem, Md Arafat Sultan, Young-Suk Lee, Radu Florian, Salim Roukos
+
+* [*"Investigating Pretrained Language Models for Graph-to-Text Generation"*](https://arxiv.org/pdf/2007.08426.pdf)  -2020 [code](https://github.com/UKPLab/plms-graph2text)
+
+  Leonardo F. R. Ribeiro, Martin Schmitt, Hinrich Schütze, Iryna Gurevych
+
+* [*"*Structural Information Preserving for Graph-to-Text Generation](https://aclanthology.org/2020.acl-main.712.pdf)", -ACL 2020
+
+  Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu
+
 #### Information extraction
 * [*"Unsupervised Induction of Cross-lingual Semantic Relations",*](https://aclanthology.org/D13-1064.pdf) -ACL 2013 [code](https://github.com/Amazing-J/structural-transformer)
   M Lewis, M Steedman
@@ -169,9 +195,26 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 #### Human–robot interaction
 * [*"Textual inference and meaning representation in human robot interaction",*](https://aclanthology.org/W13-3820.pdf) -ACL
   Emanuele Bastianelli Giuseppe Castellucci Danilo Croce Roberto Basili
-#### Image Retrieval
+  
+* [*"Fine-grained Information Extraction from Biomedical Literature based on Knowledge-enriched Abstract Meaning Representation",*](https://aclanthology.org/2021.acl-long.489.pdf) -ACL 2021
+
+  Zixuan Zhang, Nikolaus Parulian, Heng Ji
+
+#### Multimodal
 * [*"Generating semantically precise scene graphs from textual descriptions for improved image retrieval",*](https://aclanthology.org/W15-2812.pdf) -ACL 2015
   Sebastian Schuster, Ranjay Krishna, Angel Chang, Li Fei-Fei, and Christopher D. Manning
+  
+* [*"Genie: A Generator of Natural Language Semantic Parsers for Virtual Assistant Commands",*](https://arxiv.org/pdf/1904.09020.pdf) -PLDI [code](https://github.com/stanford-oval/genie-toolkit)
+
+  Giovanni Campagna, Silei Xu, Mehrad Moradshahi, Richard Socher, Monica S. Lam
+
+* [*"Cross-media Structured Common Space for Multimedia Event Extraction",*](https://arxiv.org/pdf/2005.02472.pdf) -ACL 2020
+
+  Manling Li, Alireza Zareian, Qi Zeng, Spencer Whitehead, Di Lu, Heng Ji, Shih-Fu Chang
+
+* [*"Bootstrapping Multilingual AMR with Contextual Word Alignments",*](https://arxiv.org/pdf/2102.02189.pdf) -ACL 2021
+
+  Janaki Sheth, Young-Suk Lee, Ramon Fernandez Astudillo
 
 #### Semantic Role Labeling （SRL）
 * [*"Question-Answer Driven Semantic Role Labeling:Using Natural Language to Annotate Natural Language",*](https://aclanthology.org/D15-1076.pdf) -EMNLP 2015
