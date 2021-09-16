@@ -32,7 +32,7 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Code generation](#code-generation)
    * [Data](#data)
 
-<!-- Added by: fansiqi, at: 2021年 9月16日 星期四 10时28分48秒 CST -->
+<!-- Added by: fansiqi, at: 2021年 9月16日 星期四 17时21分39秒 CST -->
 
 <!--te-->
 
@@ -149,15 +149,19 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 
   Ibrahim Abdelaziz
 
-
 #### Natural language generation
+
+* [*"Generation from Abstract Meaning Representation using Tree Transducers",*](https://www.cs.cmu.edu/~jgc/publication/flanigantree.pdf) -NAACL 2016  [code](https://github.com/jflanigan/jamr)
+
+  Jeffrey Flanigan,Chris Dyer,Noah A. Smith,Jaime Carbonell
+
 * [*"Toward Abstractive Summarization Using Semantic Representations",*](https://arxiv.org/pdf/1805.10399.pdf) ACL 2018
   Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith
   
 * [*"A Graph-to-Sequence Model for AMR-to-Text Generation",*](https://arxiv.org/pdf/1805.02473.pdf) ACL 2018
   Linfeng Song, Yue Zhang, Zhiguo Wang, Daniel Gildea
   
-* [*"Deep Graph Convolutional Encoders for tructured Data to Text Generation",*](https://arxiv.org/pdf/1810.09995.pdf) [code](https://github.com/diegma/graph-2-text)
+* [*"Deep Graph Convolutional Encoders for tructured Data to Text Generation",*](https://arxiv.org/pdf/1810.09995.pdf)  -ACL 2018 [code](https://github.com/diegma/graph-2-text)
   Diego Marcheggiani,Laura Perez-Beltrachini
   
 * [*"Structural Neural Encoders for AMR-to-text Generation",*](Marco Damonte, Shay B. Cohen) -NAACL 2019 [code](https://github.com/mdtux89/OpenNMT-py-AMR-to-text)
@@ -165,10 +169,6 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
   
 * [*"Modeling Graph Structure in Transformer for Better AMR-to-Text Generation",*](https://arxiv.org/pdf/1909.00136.pdf) -EMNLP 2019
   Jie Zhu, Junhui Li, Muhua Zhu, Longhua Qian, Min Zhang, Guodong Zhou
-  
-* [*"Generation from Abstract Meaning Representation using Tree Transducers",*](https://www.cs.cmu.edu/~jgc/publication/flanigantree.pdf) -NAACL 2016  [code](https://github.com/jflanigan/jamr)
-
-  Jeffrey Flanigan,Chris Dyer,Noah A. Smith,Jaime Carbonell
   
 * [*"Enhancing AMR-to-Text Generation with Dual Graph Representations",*](https://arxiv.org/pdf/1909.00352.pdf) -EMNLP 2019 [code](https://github.com/UKPLab/emnlp2019-dualgraph)
 
