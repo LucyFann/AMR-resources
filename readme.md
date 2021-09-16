@@ -174,7 +174,7 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 
   Leonardo F. R. Ribeiro, Claire Gardent, Iryna Gurevych
 
-* [*"GPT-too: A language-model-first approach for AMR-to-text generation",*]() -ACL 2020
+* [*"GPT-too: A language-model-first approach for AMR-to-text generation",*](https://aclanthology.org/2020.acl-main.167.pdf) -ACL 2020
 
   Manuel Mager, Ramon Fernandez Astudillo, Tahira Naseem, Md Arafat Sultan, Young-Suk Lee, Radu Florian, Salim Roukos
 
@@ -182,7 +182,7 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 
   Leonardo F. R. Ribeiro, Martin Schmitt, Hinrich Schütze, Iryna Gurevych
 
-* [*"*Structural Information Preserving for Graph-to-Text Generation](https://aclanthology.org/2020.acl-main.712.pdf)", -ACL 2020
+* [*"Structural Information Preserving for Graph-to-Text Generation",*](https://aclanthology.org/2020.acl-main.712.pdf)", -ACL 2020
 
   Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu
 
