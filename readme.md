@@ -30,9 +30,10 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Entity Linking](#entity-linking)
          * [Data Augmentation](#data-augmentation)
          * [Code generation](#code-generation)
+         * [Privacy QA](#privacy-qa)
    * [Data](#data)
 
-<!-- Added by: fansiqi, at: 2021年 9月16日 星期四 17时21分39秒 CST -->
+<!-- Added by: fansiqi, at: 2021年 9月21日 星期二 14时44分32秒 CST -->
 
 <!--te-->
 
@@ -155,11 +156,15 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 
   Jeffrey Flanigan,Chris Dyer,Noah A. Smith,Jaime Carbonell
 
+* [*"Neural AMR: Sequence-to-Sequence Models for Parsing and Generation",*](https://arxiv.org/pdf/1704.08381.pdf) -ACL 2017
+
+  Konstas, Ioannis
+
 * [*"Toward Abstractive Summarization Using Semantic Representations",*](https://arxiv.org/pdf/1805.10399.pdf) ACL 2018
   Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman Sadeh, Noah A. Smith
   
 * [*"A Graph-to-Sequence Model for AMR-to-Text Generation",*](https://arxiv.org/pdf/1805.02473.pdf) ACL 2018
-  Linfeng Song, Yue Zhang, Zhiguo Wang, Daniel Gildea
+  Linfeng Song, Yue Zhang, Zhigo Wang, Daniel Gildea
   
 * [*"Deep Graph Convolutional Encoders for tructured Data to Text Generation",*](https://arxiv.org/pdf/1810.09995.pdf)  -ACL 2018 [code](https://github.com/diegma/graph-2-text)
   Diego Marcheggiani,Laura Perez-Beltrachini
@@ -239,6 +244,11 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 * [*"TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic Parsing and Code Generation",*](https://arxiv.org/pdf/1810.02720.pdf) -EMNLP 2018
   Pengcheng Yin, Graham Neubig
 
+#### Privacy QA
+
+[*"Breaking Down Walls of Text: How Can NLP Benefit Consumer Privacy?",*](https://aclanthology.org/2021.acl-long.319.pdf) -ACL 2021
+
+Abhilasha Ravichander, Alan W Black, Thomas Norton, Shomir Wilson, Norman Sadeh
 
 ## Data
 
@@ -249,3 +259,4 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 * CAMR 2.0 由布兰迪斯大学和南京师范大学联合标注的[中文抽象意义表示语料库2.0](https://catalog.ldc.upenn.edu/LDC2021T13)
 
   
+
