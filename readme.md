@@ -33,7 +33,7 @@ A  list of Abstract meaning representation (AMR) resources: research papers, cod
          * [Privacy QA](#privacy-qa)
    * [Data](#data)
 
-<!-- Added by: fansiqi, at: 2021年 9月21日 星期二 14时44分32秒 CST -->
+<!-- Added by: fansiqi, at: 2021年 9月28日 星期二 14时09分36秒 CST -->
 
 <!--te-->
 
@@ -195,15 +195,20 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 * [*"Unsupervised Induction of Cross-lingual Semantic Relations",*](https://aclanthology.org/D13-1064.pdf) -ACL 2013 [code](https://github.com/Amazing-J/structural-transformer)
   M Lewis, M Steedman
 
-* [*"Unified Visual-Semantic Embeddings: Bridging Vision and Language With Structured Meaning Representations",*](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_Unified_Visual-Semantic_Embeddings_Bridging_Vision_and_Language_With_Structured_Meaning_CVPR_2019_paper.pdf) -CVPR 2019
-  H Wu, J Mao, Y Zhang, Y Jiang
+* [*"A Joint Neural Model for Information Extraction with Global Features",*](https://aclanthology.org/2020.acl-main.713.pdf) -ACL 2020 [code](http://blender.cs.illinois.edu/software/oneie/)
+  
+* [*"Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction",*](https://aclanthology.org/2021.naacl-main.4.pdf) -NAACL 2021 [code](https://github.com/zhangzx-uiuc/AMR-IE)
+  
+  Zixuan Zhang and Heng Ji
+* [*"Fine-grained Information Extraction from Biomedical Literature based on Knowledge-enriched Abstract Meaning Representation",*](https://aclanthology.org/2021.acl-long.489.pdf) -ACL 2021 [code](https://github.com/zhangzx-uiuc/Knowledge-AMR)
+
+  Zixuan Zhang, Nikolaus Parulian, Heng Ji
 #### Human–robot interaction
 * [*"Textual inference and meaning representation in human robot interaction",*](https://aclanthology.org/W13-3820.pdf) -ACL
   Emanuele Bastianelli Giuseppe Castellucci Danilo Croce Roberto Basili
   
-* [*"Fine-grained Information Extraction from Biomedical Literature based on Knowledge-enriched Abstract Meaning Representation",*](https://aclanthology.org/2021.acl-long.489.pdf) -ACL 2021
-
-  Zixuan Zhang, Nikolaus Parulian, Heng Ji
+  
+  
 
 #### Multimodal
 * [*"Generating semantically precise scene graphs from textual descriptions for improved image retrieval",*](https://aclanthology.org/W15-2812.pdf) -ACL 2015
@@ -212,6 +217,9 @@ AMR体现在知识库的构建和使用上，好的知识结构更有利于更�
 * [*"Genie: A Generator of Natural Language Semantic Parsers for Virtual Assistant Commands",*](https://arxiv.org/pdf/1904.09020.pdf) -PLDI [code](https://github.com/stanford-oval/genie-toolkit)
 
   Giovanni Campagna, Silei Xu, Mehrad Moradshahi, Richard Socher, Monica S. Lam
+
+* [*"Unified Visual-Semantic Embeddings: Bridging Vision and Language With Structured Meaning Representations",*](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_Unified_Visual-Semantic_Embeddings_Bridging_Vision_and_Language_With_Structured_Meaning_CVPR_2019_paper.pdf) -CVPR 2019
+  H Wu, J Mao, Y Zhang, Y Jiang
 
 * [*"Cross-media Structured Common Space for Multimedia Event Extraction",*](https://arxiv.org/pdf/2005.02472.pdf) -ACL 2020
 
@@ -253,10 +261,10 @@ Abhilasha Ravichander, Alan W Black, Thomas Norton, Shomir Wilson, Norman Sadeh
 ## Data
 
 * AMR 2.0 ([LDC2017T10](https://catalog.ldc.upenn.edu/LDC2017T10))
-
 * AMR 3.0([LDC2020T02](https://catalog.ldc.upenn.edu/LDC2020T02))
-
 * CAMR 2.0 由布兰迪斯大学和南京师范大学联合标注的[中文抽象意义表示语料库2.0](https://catalog.ldc.upenn.edu/LDC2021T13)
 
-  
+
+
+
 
